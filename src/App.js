@@ -1,21 +1,14 @@
-import HelloWorldComponents from './HelloWorldComponents';
-import MyClassComponent from './MyClassComponent';
+import ListComponent from './ListComponent';
+import CounterComponent from './CounterComponent';
 
 import './App.css';
 
 function App() {
-  const hello = 'Hello World';
-  const component = 'functional';
-
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>{hello}</p>
-        {component === 'functional' ? (
-          <HelloWorldComponents />
-        ) : (
-          <MyClassComponent />
-        )}
+        <ListComponent />
+        <CounterComponent />
       </header>
     </div>
   );
