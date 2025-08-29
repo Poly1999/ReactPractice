@@ -1,0 +1,23 @@
+const Checkbox = ({ value, setValue }) => {
+  const handleCheckboxChange = event => {
+    const checkbox = event.target.checked;
+    console.log(checkbox);
+    setValue(prevState => ({ ...prevState, checkbox }));
+  };
+  return (
+    <div>
+      <label style={{ marginRight: '10px' }} htmlFor='checkbox'>
+        Checkbox
+      </label>
+      <input
+        onChange={handleCheckboxChange}
+        checked={value.checkbox}
+        type='checkbox'
+        name='checkbox'
+        id='checkbox'
+      />
+    </div>
+  );
+};
+
+export default Checkbox;
