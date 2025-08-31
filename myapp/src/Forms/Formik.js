@@ -22,7 +22,7 @@ const FormikComponent = () => {
 
   return (
     <div>
-      <h1>Form with Formik</h1>
+      <h1 style={{ backgroundColor: 'lightpink' }}>Form with Formik</h1>
       <Formik
         initialValues={{
           name: '',
@@ -31,14 +31,25 @@ const FormikComponent = () => {
         validate={validateForm}
         onSubmit={onSubmit}
       >
-        <Form>
+        <Form
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '15px',
+            width: '200px',
+          }}
+        >
           <div>
-            <label htmlFor='name'>Name:</label>
+            <label style={{ marginRight: '10px' }} htmlFor='name'>
+              Name:
+            </label>
             <Field type='text' id='name' name='name' />
             <ErrorMessage name='name' component='div' />
           </div>
           <div>
-            <label htmlFor='email'>Email:</label>
+            <label style={{ marginRight: '10px' }} htmlFor='email'>
+              Email:
+            </label>
             <Field type='text' id='email' name='email' />
             <ErrorMessage name='email' component='div' />
           </div>

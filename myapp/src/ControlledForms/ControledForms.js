@@ -21,6 +21,7 @@ const ControledForms = () => {
 
   return (
     <>
+      <h1 style={{ backgroundColor: 'lightpink' }}>Controlled Forms</h1>
       <form
         onSubmit={handleSubmit}
         style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}

@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      {/* <UncontrolledForms /> */}
-      {/* <ControledForms /> */}
+      <UncontrolledForms />
+      <ControledForms />
       <FormikComponent />
     </div>
   );
