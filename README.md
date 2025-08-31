@@ -1,12 +1,10 @@
 # React Forms🎓
 
----
 
 ## Project Overview 📌
 This project was created as part of my **React learning journey**.  
 The goal was to practice working with **forms** in React: controlled and uncontrolled components, validation, checkboxes, radio buttons, select dropdowns, debounce, and popular form libraries.
 
----
 
 ## Tech Stack 🛠
 - **React** (Hooks: `useState`, `useRef`, `useEffect`)
@@ -15,7 +13,6 @@ The goal was to practice working with **forms** in React: controlled and uncontr
 - **Formik** — Form management
 - **React Hook Form** — Lightweight form handling
 
----
 
 ## Features ✨
 - Controlled and uncontrolled form components
@@ -26,7 +23,6 @@ The goal was to practice working with **forms** in React: controlled and uncontr
 - Working with **Formik** and **React Hook Form**
 - Filtering tasks by status: Active / Completed / All
 
----
 
 ## Concepts Learned ✅
 - [x] Difference between controlled and uncontrolled components
@@ -37,7 +33,6 @@ The goal was to practice working with **forms** in React: controlled and uncontr
 - [x] Optimizing performance with debounce
 - [x] Deploying React projects to **Vercel**
 
----
 
 ## Getting Started 🚀
 
